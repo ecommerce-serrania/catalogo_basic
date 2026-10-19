@@ -107,7 +107,7 @@ p strong, li strong{ font-weight: 700; color: var(--tinta); }
 .logo{ display:flex; align-items:center; gap:9px; flex:0 0 auto; }
 .logo svg{ width:30px; height:auto; }
 /* Logo en imagen. Ajusta la altura si tu PNG se ve muy grande o muy pequeño. */
-.logo img{ height:34px; width:auto; }
+.logo img{ height:15px; width:auto; }
 .logo-texto{
   font-family: Georgia, "Times New Roman", serif;
   font-size:1.35rem; color: var(--tinta); letter-spacing:.01em;
