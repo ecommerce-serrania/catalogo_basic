@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prenda corporativa | Serranía</title>
+<meta name="description" content="Prenda corporativa personalizada con el logo de tu empresa. Desde 50 unidades.">
+<link rel="canonical" href="https://catalogo.serrania.co/producto.html">
+
+<meta property="og:type" content="product">
+<meta property="og:title" content="Prenda corporativa | Serranía">
+<meta property="og:description" content="Prenda corporativa personalizada con el logo de tu empresa.">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<meta property="og:locale" content="es_CO">
+
+<link rel="alternate" hreflang="es" href="https://catalogo.serrania.co/">
+<link rel="alternate" hreflang="en" href="https://catalogo.serrania.co/en/">
+<meta name="theme-color" content="#0B3A47">
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<a href="#ficha" class="solo-lectores">Saltar al contenido</a>
+
+<!-- ================= CABECERA ================= -->
+<header class="cabecera">
+  <div class="contenedor cabecera-fila">
+    <a class="logo" href="index.html" aria-label="Serranía, inicio">
+      <img src="img/logo.png" alt="Serranía" width="150" height="34">
+    </a>
+
+    <div class="buscador">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <label for="buscar" class="solo-lectores">Buscar una prenda</label>
+      <input type="search" id="buscar" placeholder="Buscar chaqueta, buzo, gorra…" autocomplete="off">
+      <div class="sugerencias oculto" id="sugerencias" role="listbox"></div>
+    </div>
+
+    <nav class="nav" id="nav" aria-label="Categorías"></nav>
+
+    <div class="acciones">
+      <a class="idioma" href="en/producto.html" hreflang="en" aria-label="View this catalog in English">EN</a>
+      <button type="button" class="btn-icono btn-menu" id="btn-menu" aria-label="Abrir menú" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= MIGAS ================= -->
+<div class="contenedor">
+  <nav class="migas" aria-label="Ruta de navegación">
+    <a href="index.html">Catálogo</a><span>/</span>
+    <a href="#" id="miga-categoria"></a><span>/</span>
+    <span id="miga-producto"></span>
+  </nav>
+</div>
+
+<!-- ================= FICHA ================= -->
+<main class="contenedor">
+  <div class="ficha" id="ficha">
+
+    <!-- Carrusel -->
+    <div class="carrusel">
+      <div class="carrusel-marco">
+        <div class="carrusel-pista" id="carrusel-pista"></div>
+        <button type="button" class="carrusel-flecha flecha-izq" id="flecha-izq" aria-label="Foto anterior">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 5-7 7 7 7"/></svg>
+        </button>
+        <button type="button" class="carrusel-flecha flecha-der" id="flecha-der" aria-label="Foto siguiente">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 5 7 7-7 7"/></svg>
+        </button>
+      </div>
+      <div class="carrusel-puntos" id="carrusel-puntos"></div>
+      <div class="miniaturas" id="miniaturas"></div>
+    </div>
+
+    <!-- Información -->
+    <div class="ficha-info">
+      <p class="rotulo" id="categoria"></p>
+      <h1 class="display" id="nombre"></h1>
+      <p class="ficha-resumen" id="resumen"></p>
+
+      <ul class="claves" id="claves"></ul>
+      <p class="ficha-detalle" id="detalle"></p>
+
+      <div class="bloque" id="bloque-colores"></div>
+      <div class="bloque" id="bloque-tallas"></div>
+      <div class="bloque" id="bloque-tecnicas"></div>
+      <div class="bloque" id="bloque-datos"></div>
+    </div>
+
+  </div>
+</main>
+
+<!-- ================= RELACIONADOS ================= -->
+<section class="seccion seccion-niebla" id="relacionados">
+  <div class="contenedor">
+    <div class="seccion-cabeza">
+      <h2 class="display">También en esta categoría</h2>
+      <a class="btn btn-linea btn-chico" href="index.html">Ver todo el catálogo</a>
+    </div>
+    <div class="rejilla" id="rejilla-relacionados"></div>
+  </div>
+</section>
+
+<!-- ================= MARCAS CLIENTE ================= -->
+<section class="marcas" id="marcas" aria-label="Marcas que han confiado en Serranía"></section>
+
+<!-- ================= CIERRE ================= -->
+<section class="franja">
+  <div class="contenedor">
+    <h2 class="display">Catálogo 2026</h2>
+    <p>Prendas corporativas personalizadas. Producción propia en Cajicá, Colombia. Desde 50 unidades por referencia.</p>
+  </div>
+</section>
+
+<!-- ================= PIE ================= -->
+<footer class="pie">
+  <div class="contenedor">
+    <div class="pie-rejilla">
+      <div>
+        <h4>Serranía</h4>
+        <p style="margin:0">Prendas corporativas personalizadas. Producción propia en Cajicá, Cundinamarca.</p>
+      </div>
+      <div>
+        <h4>Categorías</h4>
+        <ul>
+          <li><a href="index.html?categoria=chaquetas">Chaquetas</a></li>
+          <li><a href="index.html?categoria=buzos">Buzos</a></li>
+          <li><a href="index.html?categoria=camisetas">Camisetas y polos</a></li>
+          <li><a href="index.html?categoria=accesorios">Accesorios</a></li>
+          <li><a href="index.html?categoria=maletas">Maletas</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>En línea</h4>
+        <ul>
+          <li><a href="https://serrania.co" target="_blank" rel="noopener">serrania.co</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="pie-abajo">
+      <span>© <span id="ano"></span> Serranía. Todos los derechos reservados.</span>
+      <span>Cajicá y Bogotá, Colombia</span>
+    </div>
+  </div>
+</footer>
+
+
+
+<script src="js/config.js"></script>
+<script src="js/datos-colores.js"></script>
+<script src="js/datos-tallas.js"></script>
+<script src="js/datos-productos.js"></script>
+<script src="js/datos-marcas.js"></script>
+<script src="js/comunes.js"></script>
+<script src="js/producto.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function(){
+    document.getElementById("ano").textContent = new Date().getFullYear();
+    montarMarcas();
+  });
+</script>
+</body>
+</html>

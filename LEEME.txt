@@ -1,0 +1,28 @@
+CATÁLOGO SERRANÍA — VERSIÓN SIN DATOS DE CONTACTO
+=================================================
+
+Es el mismo catálogo en español, con las mismas 31 referencias, fotos,
+colores y tablas de medidas, pero SIN ningún punto de contacto.
+
+QUÉ SE RETIRÓ
+  · Botón flotante de WhatsApp (el verde de la esquina).
+  · Botones "Hablar con un asesor" de la portada, el video y el cierre.
+  · Bandeja de cotización y el botón "Cotizar" de cada tarjeta.
+  · Botón "Agregar a mi cotización" de la ficha de producto.
+  · WhatsApp y correo del pie de página.
+  · Los textos que invitaban a escribir se cambiaron por texto informativo.
+
+QUÉ SE CONSERVA
+  Buscador, menú por categorías, filtros, carruseles de fotos, visor de
+  imágenes, fichas con colores, técnicas de marca y guía de tallas.
+
+QUÉ SUBIR
+  index.html, producto.html, robots.txt y sitemap.xml a la raíz,
+  más las carpetas css y js. La carpeta img es la misma de siempre:
+  no hay que subir ninguna foto nueva.
+
+OJO: esta versión es para publicarla en un repositorio DISTINTO al del
+catálogo con contacto. Si la subes encima del actual, reemplazas el que
+sí lleva WhatsApp.
+
+Para devolver los contactos algún día, se usa la versión completa.
